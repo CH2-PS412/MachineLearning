@@ -37,9 +37,9 @@ def index():
 def prediction():
     if request.method == "POST":
         data = request.get_json(force=True)
-        nama_kegiatan = data[0]['nama_kegiatan']
-        kategori = data[0]['kategori']
-        prioritas = data[0]['prioritas']
+        nama_kegiatan = data['nama_kegiatan']
+        kategori = data['kategori']
+        prioritas = data['prioritas']
 
         # Fit label encoders with the necessary data
         data_for_fitting = pd.read_csv('dataset_1.csv')
