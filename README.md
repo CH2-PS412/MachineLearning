@@ -8,4 +8,4 @@ The application was built in python, make sure you have installed python on your
 3. Run the application on terminal using this command: `python app.py`.
 4. The server will run on the localhost with the port 3000. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 5. if it shows `{"data":null,"status":{"code":200,"message":"Success fetching the API"}}` then you have succefully run the recommendation task API.
-6. The next step is to configure the backend service, you can go to the [backend](https://github.com/CH2-PS412/Back-End-Cloud-Computing) repository.
+6. The next step is to configure the recommendation activity service, you can go to the [machinelearning2](https://github.com/CH2-PS412/MachineLearning2) repository.
